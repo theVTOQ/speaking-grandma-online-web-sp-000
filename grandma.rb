@@ -10,7 +10,7 @@ def speak_to_grandma(greeting)
   else
     puts "NO, NOT SINCE 1938!"
   end
-  binding.pry
+  #binding.pry
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!

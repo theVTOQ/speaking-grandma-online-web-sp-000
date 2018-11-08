@@ -1,4 +1,6 @@
 # Write a speak_to_grandma method.
+require 'pry'
+
 def speak_to_grandma(greeting)
   lowercase = greeting.match(/[a-z]/)
   if lowercase != nil
@@ -8,6 +10,7 @@ def speak_to_grandma(greeting)
   else
     puts "NO, NOT SINCE 1938!"
   end
+  binding.pry
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!

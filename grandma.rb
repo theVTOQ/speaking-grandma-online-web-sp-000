@@ -4,11 +4,11 @@
 def speak_to_grandma(greeting)
   lowercase = greeting.match(/[a-z]/)
   if lowercase != nil
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   elsif greeting == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   else
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   end
 
 end

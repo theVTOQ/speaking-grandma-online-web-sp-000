@@ -1,5 +1,5 @@
 # Write a speak_to_grandma method.
-require 'pry'
+
 
 def speak_to_grandma(greeting)
   lowercase = greeting.match(/[a-z]/)
